@@ -2,14 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Monserrat", sans-serif;  
+    font-family: "Monserrat", sans-serif;
 }
 
-.menu {
+.menu { 
     height: 100px;
     align-items: center;
-    background-color: grey;
-    box-shadow: 0 0 10px #0000;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .container {
@@ -48,5 +48,45 @@
 }
 
 .nav-items li :hover {
-    color: red;
+    color: rgb(230, 112, 112);
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 100px;
+    height: 450px;
+    background-color: rgb(226, 152, 152);
+    gap: 20px;
+
+    h1,
+    p {
+        color: white;
+    }
+
+    button {
+        color: white;
+        text-transform: uppercase;
+        font-weight: 600;
+        max-width: 150px;
+        padding: 10px 30px;
+        background-color: #018ae0;
+        border-radius: 25px;
+        border: none;
+    }
+
+    img {
+        max-width: 70%;
+        max-height: 55%;
+    }
+}
+
+.quanexp {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    height: 450px;
+    margin: auto;
 }
